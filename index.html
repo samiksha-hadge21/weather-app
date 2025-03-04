@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      
+
+        <div class="first">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/12/53/weather-forecast-146472_1280.png" width="250px">
+            
+        </div>
+        <div class="second">
+            <div id="imp">
+            <input placeholder="search for your city" id="inp">
+            <button onclick="checkTemp()">Search</button>
+        </div>
+            <h1 id="cityName"></h1>
+            <div style="display: flex;">
+                <h1 id="temperature"></h1>
+                <img id="icon">
+            </div>
+           
+            <div id="air">
+                
+                <h1 id="realfeel"></h1>
+                <h1 id="windspeed"></h1>
+                <h1 id="humidity"></h1>
+            </div>          
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
